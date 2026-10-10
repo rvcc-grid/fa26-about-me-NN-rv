@@ -1,0 +1,41 @@
+body {
+    font-family:"Comic Relief";
+    background-color: #3227C9;
+    color: #C9AE22;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Coiny", system-ui;
+    font-size: 40pt;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    background-color: #3E3A8A;
+    border: 2px solid #C9AE22;
+    padding: 15px;
+}
+
+#me {
+    background-color: #3E3A8A;
+    border: 5px solid #C9AE22;
+    text-align: center;
+}
+
+#me img{
+    width: 400px;
+}
+
+#bio {
+    text-align: center;
+}
+
+footer {
+    background-color: #3E3A8A;
+    border: 2px solid #C9AE22;
+    padding: 5px;
+    text-align: center;
+}
