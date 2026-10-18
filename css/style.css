@@ -36,19 +36,19 @@ header img {
 }
 
 #bio div{
-    color: skyblue;
+    color: #87ceeb;
 }
 
-#hobbies ul li{
-    padding: 2px;
+#hobbies {
+    margin: 10px;
 }
 
 #hobbies ul li:nth-child(odd){
-    color: orchid;
+    color: #be53bb;
 }
 
 #hobbies ul li:nth-child(even){
-    color: teal;
+    color: #35a3a3;
 }
 
 #gallery {
@@ -62,9 +62,19 @@ header img {
     color: lavender;
 }
 
+#lit {
+    background-color: #3a5d8a;
+    border: 2px solid #85ddc3;
+    border-radius: 20px;
+    color: #85ddc3;
+    margin: 1rem;
+    padding: 10px;
+    text-align: left;
+}
+
 /* The style sheet */
 
 footer {
-    padding: 1%;
+    margin: 1%;
     text-align: center;
 }
