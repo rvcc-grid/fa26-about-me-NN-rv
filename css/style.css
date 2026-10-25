@@ -1,3 +1,4 @@
+/* Floor 8 Body */
 body {
     font-family:"Comic Relief";
     background-color: #3227C9;
@@ -13,6 +14,8 @@ h2 {
     margin: .1em;
 }
 
+/* Floor 7 Header */
+
 header {
     text-align: center;
 }
@@ -24,6 +27,8 @@ header img {
     padding: 15px;
 }
 
+/* Floor 6 Me */
+
 #me {
     background-color: #3E3A8A;
     border: 5px solid #C9AE22;
@@ -31,9 +36,13 @@ header img {
     text-align: center;
 }
 
-#me img{
-    width: 400px;
+#me img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
+
+/* Floor 5 Bio */
 
 #bio {
     text-align: center;
@@ -42,6 +51,8 @@ header img {
 #bio div{
     color: #87ceeb;
 }
+
+/* Floor 4 Hobbies */
 
 #hobbies {
     margin: 10px;
@@ -58,6 +69,8 @@ header img {
     color: #35a3a3;
 }
 
+/* Floor 3 Gallery */
+
 #gallery {
     text-align: center;
     background-color: #3E3A8A;
@@ -65,9 +78,17 @@ header img {
     border-radius: 20px;
 }
 
+#gallery img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
 #gallery figure figcaption:nth-child(even){
     color: lavender;
 }
+
+/* Floor 2 Literature */
 
 #lit {
     background-color: #3a5d8a;
@@ -79,15 +100,16 @@ header img {
     text-align: left;
 }
 
-/* The style sheet */
+/* Floor 1 Footer */
 
 footer {
     margin: 1%;
     text-align: center;
 }
 
-/* tablet size */
-@media screen and (min-width: 60em) {
+/* Floor B1 Tablet Size */
+
+@media screen and (min-width: 40em) {
     figure {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -97,7 +119,37 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-left: 1rem;
+    }
+
+    #lit div {
+        max-width: 100%;
+        columns: 40rem;
+    }
+}
+
+/* Floor B2 Large Screen Size */
+
+@media screen and (min-width: 60em) {
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #gallery h2 {
+        grid-column: 1/-1;
+    }
+
+    figure {
+        display: block;
+    }
+
+    figcaption {
+        font-size: 1rem;
     }
 }
