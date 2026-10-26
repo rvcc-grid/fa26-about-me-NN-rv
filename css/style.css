@@ -137,12 +137,12 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    hr {
-        display: none;
-    }
-
     #gallery h2 {
         grid-column: 1/-1;
+    }
+
+    hr {
+        display: none;
     }
 
     figure {
@@ -151,5 +151,10 @@ footer {
 
     figcaption {
         font-size: 1rem;
+    }
+
+    #lit div {
+        max-width: 100%;
+        columns: 100rem;
     }
 }
