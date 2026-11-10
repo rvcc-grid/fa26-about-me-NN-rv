@@ -1,4 +1,4 @@
-/* Floor 8 Body */
+/* Floor 9 Body */
 body {
     font-family:"Comic Relief";
     background-color: #3227C9;
@@ -14,7 +14,7 @@ h2 {
     margin: .1em;
 }
 
-/* Floor 7 Header */
+/* Floor 8 Header */
 
 header {
     text-align: center;
@@ -27,7 +27,7 @@ header img {
     padding: 15px;
 }
 
-/* Floor 6 Me */
+/* Floor 7 Me */
 
 #me {
     background-color: #3E3A8A;
@@ -42,23 +42,22 @@ header img {
     height: auto;
 }
 
-/* Floor 5 Bio */
+/* Floor 6 Bio */
 
 #bio {
     text-align: center;
-}
-
-#bio div{
     color: #87ceeb;
+    padding-top: 1rem;
 }
 
-/* Floor 4 Hobbies */
+/* Floor 5 Hobbies */
 
 #hobbies {
     margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #be53bb;
 }
 
 #hobbies ul li:nth-child(odd){
@@ -67,6 +66,20 @@ header img {
 
 #hobbies ul li:nth-child(even){
     color: #35a3a3;
+}
+
+/* Floor 4 Video */
+
+#video {
+    text-align: center;
+    padding-bottom: 1rem;
+    color: #35a3a3;
+}
+
+#myVideo {
+    aspect-ratio: auto;
+    border: 5px solid #be53bb;
+    border-radius: 20px;
 }
 
 /* Floor 3 Gallery */
